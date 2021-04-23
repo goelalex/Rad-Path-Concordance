@@ -1,0 +1,65 @@
+{
+  "resourceType": "MeasureReport",
+  "id": "RadObsMeasureReport",
+  "status": "complete",
+  "type": "individual",
+  "measure": "http://cap.org/radpath",
+  "period": {
+    "start": "2021-02-07",
+    "end": "2021-02-07"
+  },
+  "group": [
+    {
+      "stratifier": [
+        {
+          "code": [
+            {
+              "coding": [
+                {
+                  "code": "372278000",
+                  "system": "http://snomed.info/sct",
+                  "display": "Gleason score"
+                }
+              ]
+            }
+          ],
+          "stratum": [
+            {
+              "value": {
+                "coding": [
+                  {
+                    "code": "372278000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Gleason score"
+                  }
+                ]
+              },
+              "component": [
+                {
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "372278000",
+                        "system": "http://snomed.info/sct",
+                        "display": "Gleason score"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "coding": [
+                      {
+                        "code": "RID49502",
+                        "system": "http://radlex.org",
+                        "display": "clinically significant prostate cancer"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "Measure",
+  "id": "RadObs",
+  "status": "draft",
+  "experimental": true,
+  "group": [
+    {
+      "stratifier": [
+        {
+          "code": {
+            "coding": [
+              {
+                "code": "measure-observation"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

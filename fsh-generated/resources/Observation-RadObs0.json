@@ -1,0 +1,33 @@
+{
+  "resourceType": "Observation",
+  "id": "RadObs0",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "372278000",
+        "system": "http://snomed.info/sct",
+        "display": "Gleason score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "pathpract1",
+      "display": "Luigi Maas"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "RID49502",
+        "system": "http://radlex.org",
+        "display": "clinically significant prostate cancer"
+      }
+    ]
+  }
+}

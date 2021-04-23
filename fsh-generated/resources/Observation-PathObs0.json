@@ -1,0 +1,33 @@
+{
+  "resourceType": "Observation",
+  "id": "PathObs0",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "372278000",
+        "system": "http://snomed.info/sct",
+        "display": "Gleason score"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "q201",
+    "display": "Bibata Amadou"
+  },
+  "performer": [
+    {
+      "reference": "pathpract1",
+      "display": "Luigi Maas"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "16811",
+        "system": "http://cap.org",
+        "display": "Score 7"
+      }
+    ]
+  }
+}

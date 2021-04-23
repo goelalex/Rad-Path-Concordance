@@ -1,0 +1,66 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "radpath.id",
+  "url": "http://radpath.ihe.org/ImplementationGuide/radpath.id",
+  "version": "0.1.0",
+  "name": "RadPathConcordance",
+  "status": "draft",
+  "packageId": "radpath.id",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Observation/PathObs0"
+        },
+        "name": "PathGleasonEx0",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Measure/RadObs"
+        },
+        "name": "RadPathMeasureGleasonEx0",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/RadObs0"
+        },
+        "name": "RadGleasonEx0",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MeasureReport/RadObsMeasureReport"
+        },
+        "name": "RadPathMRHistologicEx0",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

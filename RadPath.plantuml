@@ -1,0 +1,10 @@
+@startuml
+skinparam monochrome true
+participant FormFiller as FF
+participant CondocordanceReporter as CR 
+participant ConcordanceConsumer as CC 
+CR -> FF: Request Observations
+FF -> CR: Send Observations
+'CR -> CR: Calculate concordance 
+CR -> CC: Send concordance report 
+@enduml
