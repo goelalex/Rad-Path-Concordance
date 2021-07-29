@@ -13,7 +13,36 @@
                 "code": "measure-observation"
               }
             ]
-          }
+          },
+          "component": [
+            {
+              "criteria": {
+                "language": "text/fhir-x-query",
+                "expression": "/Observation?subject:Patient/{id}/&amp;value-concept=http://radlex.org|RID49502"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stratifier": [
+        {
+          "component": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "code": "measure-observation"
+                  }
+                ]
+              },
+              "criteria": {
+                "language": "text/fhir-x-query",
+                "expression": "/Observation?subject:Patient/{id}/&amp;value-concept=http://cap.org/eCC|16811"
+              }
+            }
+          ]
         }
       ]
     }

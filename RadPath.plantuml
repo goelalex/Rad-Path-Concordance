@@ -1,10 +1,16 @@
 @startuml
 skinparam monochrome true
+
+participant ContentDataStructureCreator as CDSCre
+participant ContentDataStructureConsumer as CDSCon 
 participant FormFiller as FF
 participant CondocordanceReporter as CR 
 participant ConcordanceConsumer as CC 
+
+CDSCre -> CDSCon: Report Definition
+CDSCon -> CR: Required Actor Bundle
 CR -> FF: Request Observations
 FF -> CR: Send Observations
-'CR -> CR: Calculate concordance 
+CR -> CR: Calculate concordance 
 CR -> CC: Send concordance report 
 @enduml
